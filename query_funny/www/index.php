@@ -1,6 +1,6 @@
 <html>
  <head>
-  <title> Debug Page...</title>
+  <title>Anime Character 18+</title>
 
   <meta charset="utf-8">
 
@@ -14,7 +14,7 @@
     <?php
 
     error_reporting(0);
-    $conn = mysqli_connect('db', 'user', 'test', "dockerExample");
+    $conn = mysqli_connect('db', 'user', 'test', "rcelevelone");
 
     $query = 'SELECT * From Alime';
     $result = mysqli_query($conn, $query);
