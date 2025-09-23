@@ -8,7 +8,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 
-CREATE TABLE `Person` (
+CREATE TABLE `Alime` (
   `id` int(11) NOT NULL,
   `name` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -25,7 +25,7 @@ CREATE TABLE `Very_funn` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
-INSERT INTO `Person` (`id`, `name`) VALUES
+INSERT INTO `Alime` (`id`, `name`) VALUES
 (1, 'Savej204'),
 (2, 'Kakashi'),
 (3, 'Saitama');
@@ -33,13 +33,13 @@ INSERT INTO `Person` (`id`, `name`) VALUES
 INSERT INTO `Flag_is_secret` (`id`, `flag`) VALUES
 (1, 'NA'),
 (2, 'NA'),
-(3, 'DTU{k1_m0_ch11_uwu~}');
+(3, 'DTU{FAKE_FLAG}');
 
 
 INSERT INTO `Very_funn` (`id`, `flag`) VALUES
 (1, 'NA'),
 (2, 'NA'),
-(3, 'DTU{k1_m0_ch11_uwu~}');
+(3, 'DTU{FAKE_FLAG}');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

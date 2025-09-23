@@ -16,12 +16,12 @@
     error_reporting(0);
     $conn = mysqli_connect('db', 'user', 'test', "dockerExample");
 
-    $query = 'SELECT * From Very_funn';
+    $query = 'SELECT * From Alime';
     $result = mysqli_query($conn, $query);
 
     echo '<table class="table table-striped">';
     echo '<thead><tr><th></th><th>id</th><th>name</th></tr></thead>';
-    $msg = "Bypass à cu :))";
+    $msg = "F*ck bypass :))";
 
     while($value = $result->fetch_array(MYSQLI_ASSOC)){
         echo '<tr>';
